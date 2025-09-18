@@ -21,4 +21,4 @@ spec:
     required:
       nodeSelectorTerms:
         - matchExpressions:
-            - {key: kubernetes.io/hostname, operator: In, values: [k8s-master]}
+            - {key: example.com/hostname, operator: In, values: [localhost.localdomain]}
