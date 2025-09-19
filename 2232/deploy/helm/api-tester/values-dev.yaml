@@ -6,10 +6,6 @@ image:
   pullPolicy: Always
   tag: 1.0.0
 
-rollingUpdate:
-  maxSurge: 0
-  maxUnavailable: 1
-
 resources:
   limits:
     cpu: 210m
